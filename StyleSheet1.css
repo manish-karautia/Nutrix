@@ -1,0 +1,245 @@
+﻿* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body,
+div {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#top {
+    padding-top: 100;
+    margin: auto;
+    width: 80%;
+    height: 70px;
+    display: grid;
+    grid-template-columns: 1.5fr 4fr;
+    gap: 30%
+}
+
+    #top > div > img {
+        width: 90%;
+        height: 50%;
+        margin: 5%;
+    }
+
+#leftDiv {
+    display: flex;
+    gap: 10px;
+}
+
+    #leftDiv > div {
+        display: flex;
+        gap: 10px;
+        /* margin-top: 7px; */
+    }
+
+        #leftDiv > div > a > img {
+            height: 30px;
+            width: 30px;
+            margin-top: 10px;
+        }
+
+        #leftDiv > div > img {
+            height: 30px;
+            width: 30px;
+            margin-top: 10px;
+        }
+
+a {
+    text-decoration: none;
+}
+
+#bottom {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    height: auto;
+    font-weight: bold;
+    background-color: #0072bf;
+}
+
+    #bottom > div {
+        text-align: center;
+        padding: 1%;
+    }
+
+        #bottom > div > a {
+            color: white;
+        }
+
+        #bottom > div:hover {
+            background-color: #00548f;
+        }
+
+#bottom2 {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    background-color: #00548f;
+}
+
+    #bottom2 > div > a {
+        text-decoration: none;
+        color: white;
+    }
+
+    #bottom2 > div {
+        padding: 1%;
+        color: white;
+    }
+
+/* body */
+#body {
+    margin: auto;
+    width: 58%;
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: 3fr 1.5fr;
+    gap: 20px;
+    height: auto;
+    margin-top: 100px;
+}
+
+
+#topleft {
+    height: 50px;
+    width: 100%;
+    background-color: #0A5282;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+    #topleft > div {
+        margin: 20px;
+        /* margin-top: 20px; */
+        display: flex;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+#bodyleft {
+    background-color: #f6f6f6;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+    #bodyleft > div {
+        /* border: 1px solid red; */
+        height: auto;
+    }
+
+#userPhoto {
+    height: 100px;
+    width: 100px;
+    border: 1px solid #cecece;
+    margin: auto;
+}
+
+    #userPhoto > img {
+        height: 50px;
+        width: 50px;
+        border: 1px solid #cecece;
+    }
+
+#caloriesRemaining {
+    font-size: 45px;
+    color: #85c400;
+    font-weight: bold;
+}
+
+#bodyleft > div > div > p {
+    margin: 0;
+    padding: 0;
+}
+
+#claoriesDetailDiv {
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: 100px 350px;
+    gap: 50px;
+}
+
+
+#addFoodExcerciseDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    gap: 20px;
+}
+
+    #addFoodExcerciseDiv > button {
+        padding: 2%;
+    }
+
+#yourSummaryBottom {
+    display: flex;
+    gap: 40px;
+}
+
+    #yourSummaryBottom > div > p {
+        color: #999999;
+    }
+
+/* left bottom body */
+#newsFeed {
+    margin-top: 20px;
+    background-color: #0A5282;
+    padding: 2%;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#feedText {
+    width: 80%;
+    height: 100px;
+}
+
+#feedBox {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 500px 10px
+}
+
+#likeCommentDiv > button {
+    border: none;
+}
+
+    #likeCommentDiv > button > img {
+        width: 30px;
+        height: 30px;
+    }
+
+#commentDiv {
+    margin-top: 20px;
+    border: 1px solid #cecece;
+}
+
+#rightDiv {
+    margin-left: 50px;
+    width: 300px;
+    font-size: 12px;
+}
+
+    #rightDiv > h3, h4 {
+        color: #0066ee;
+        font-size: 14px;
+    }
+
+#footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+}
+
+    #footer a {
+        margin: 5px;
+    }

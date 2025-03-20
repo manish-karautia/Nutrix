@@ -1,0 +1,102 @@
+﻿body {
+    padding: 0;
+    margin: 0;
+}
+
+#paymentHeader {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10%;
+    height: 60px;
+    align-items: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+    #paymentHeader > div:nth-child(2) > img {
+        width: 30px;
+        height: 30px;
+        border-radius: 5px;
+    }
+
+#inputOrderContainer {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+}
+
+    #inputOrderContainer > div:nth-child(1) {
+        width: 55%;
+    }
+
+    #inputOrderContainer > div:nth-child(2) {
+        width: 35%;
+    }
+
+    #inputOrderContainer > div:nth-child(1) > div:nth-child(1) {
+        margin-bottom: 40px;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    #inputOrderContainer > div:nth-child(1) input {
+        display: block;
+        width: 98%;
+        padding: 15px 2px;
+        font-size: 16px;
+        margin-bottom: 33px;
+        font-family: Armour,Helvetica,sans-serif;
+        border: 3px solid #eee;
+        border-radius: 5px;
+    }
+
+    #inputOrderContainer > div:nth-child(1) > div:nth-child(4) {
+        display: flex;
+        justify-content: space-between;
+    }
+
+        #inputOrderContainer > div:nth-child(1) > div:nth-child(4) > input {
+            width: 30%;
+        }
+
+    #inputOrderContainer > div:nth-child(1) > div:nth-child(5) {
+        width: 70%;
+        margin: auto;
+        margin-top: 20px;
+        color: red;
+        text-align: center;
+        font-size: 14px;
+        display: none;
+    }
+
+    #inputOrderContainer > div:nth-child(1) > div:last-child {
+        width: 100%;
+        background: #0066EE;
+        text-align: center;
+        color: white;
+        padding: 20px 0;
+        border-radius: 5px;
+        margin-top: 40px;
+        cursor: pointer;
+    }
+
+#orderContainer > div:first-child {
+    margin-bottom: 40px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#orderContainer > div:nth-child(2) {
+    display: flex;
+    justify-content: space-between;
+}
+
+#orderContainer > div:nth-child(3) {
+    margin: auto;
+    margin-top: 40px;
+    background-color: #f2f9fd;
+    border: 1px solid #b5dcf7;
+    padding: 20px;
+}

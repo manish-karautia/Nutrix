@@ -1,0 +1,293 @@
+﻿
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body,
+div {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#top {
+    padding-top: 100;
+    margin: auto;
+    width: 80%;
+    height: 70px;
+    display: grid;
+    grid-template-columns: 1.5fr 4fr;
+    gap: 30%
+}
+
+    #top > div > img {
+        width: 90%;
+        height: 50%;
+        margin: 5%;
+    }
+
+#leftDiv {
+    display: flex;
+    gap: 10px;
+}
+
+    #leftDiv > div {
+        display: flex;
+        gap: 10px;
+        /* margin-top: 7px; */
+    }
+
+        #leftDiv > div > a > img {
+            height: 30px;
+            width: 30px;
+            margin-top: 10px;
+        }
+
+        #leftDiv > div > img {
+            height: 30px;
+            width: 30px;
+            margin-top: 10px;
+        }
+
+a {
+    text-decoration: none;
+}
+
+#bottom {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    height: auto;
+    font-weight: bold;
+    background-color: #0072bf;
+}
+
+    #bottom > div {
+        text-align: center;
+        padding: 1%;
+    }
+
+        #bottom > div > a {
+            color: white;
+        }
+
+        #bottom > div:hover {
+            background-color: #00548f;
+        }
+
+#bottom2 {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    background-color: #00548f;
+}
+
+    #bottom2 > div > a {
+        text-decoration: none;
+        color: white;
+    }
+
+    #bottom2 > div {
+        padding: 1%;
+        color: white;
+    }
+
+/*--------------top section style*-----------*/
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+}
+
+#top {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+    font-size: 18px;
+    margin-top: 12px;
+    justify-content: space-between;
+}
+
+    #top .right {
+        display: flex;
+        flex-direction: row;
+        margin-top: 15px;
+    }
+
+        #top .right p {
+            margin: 0px 10px;
+        }
+
+    #top a {
+        color: rgb(89, 89, 243);
+    }
+/*----------top section end here----------*/
+/*----------nev section start here--------*/
+#nev {
+    width: 100%;
+    margin-top: 20px;
+    background-color: rgb(61, 61, 190);
+    padding: 15px;
+    padding-left: 10%;
+}
+
+    #nev a {
+        color: white;
+        margin-right: 20px;
+        font-size: 15px;
+        padding: 15px;
+    }
+
+        #nev a:hover {
+            background-color: rgb(11, 11, 105);
+        }
+/*---------nev section ends here----------*/
+/*----------search css start here---------*/
+#search {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+
+    #search #left {
+        width: 60%;
+    }
+
+    #search #right {
+        width: 40%;
+        margin-left: 80px;
+        position: relative;
+    }
+
+        #search #right #btn1 {
+            position: absolute;
+            top: 0px;
+            right: 98px;
+        }
+
+        #search #right #btn2 {
+            position: absolute;
+            top: 600px;
+            right: 45px;
+        }
+
+#searchIcon {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    height: 70px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+    #searchIcon input {
+        width: 400px;
+        border: none;
+        outline: none;
+        font-size: 20px;
+    }
+
+        #searchIcon input:active {
+            border: none;
+            outline: none;
+        }
+
+    #searchIcon img {
+        width: 30px;
+        height: auto;
+    }
+
+#foodAnalysis {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-left: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+    #foodAnalysis p {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+/*---------------------recipe section css   start here-------------*/
+#inspiration {
+    margin-top: 200px;
+    margin-bottom: 30px;
+}
+
+#recipe {
+    display: flex;
+    width: 100%;
+    text-align: center;
+}
+
+#firstimg {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-right: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#secondimg {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+    #firstimg img, #secondimg img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    #firstimg h2, #secondimg h2 {
+        text-align: center;
+        font-size: 22px;
+        margin-bottom: 5px;
+    }
+/* --------------footer section cs------------------*/
+#bottomF {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+    #bottomF a {
+        margin: 10px;
+    }
+/*  -----------------later added dynamic part----------------*/
+#container {
+    width: 100%;
+}
+
+#parent {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#div3 {
+    display: flex;
+}
+
+#calorie1 {
+    width: 100px;
+    height: 100px;
+    color: black;
+    text-align: center;
+}

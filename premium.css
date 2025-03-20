@@ -1,0 +1,493 @@
+﻿#nev {
+    width: 100%;
+    margin-top: 20px;
+    background-color: rgb(61, 61, 190);
+    padding: 15px;
+    padding-left: 15%;
+}
+
+    #nev a {
+        color: white;
+        margin-right: 20px;
+        font-size: 15px;
+        padding: 15px;
+    }
+
+        #nev a:hover {
+            background-color: rgb(11, 11, 105);
+        }
+
+#firstBigContainer {
+    background-image: url("https://www.myfitnesspal.com/react-static/78a85ff61ae51bacb70e2839935c0b84.svg"),url("https://www.myfitnesspal.com/react-static/d25745179dd7595c07dc1f9b09b89efa.png");
+    background-repeat: no-repeat, no-repeat;
+    background-position: top -40px left,top right 10%;
+    background-size: auto, 20%;
+}
+
+#firstPremiumContainer {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    margin-top: 60px;
+    font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+}
+
+    #firstPremiumContainer > div {
+        width: 50%;
+    }
+
+#goesToannualMonthDiv {
+    scroll-behavior: smooth;
+}
+
+#firstPremiumContainer > div:first-child {
+    padding-top: 20px;
+}
+
+    #firstPremiumContainer > div:first-child > div {
+        margin-bottom: 5px;
+        color: #222628;
+    }
+
+        #firstPremiumContainer > div:first-child > div:nth-child(1) {
+            background: #FFC600;
+            width: 15%;
+            height: 20px;
+            font-size: 14px;
+            padding: 4px 12px;
+            border-radius: 5px;
+        }
+
+        #firstPremiumContainer > div:first-child > div:nth-child(2), #firstPremiumContainer > div:first-child > div:nth-child(3) {
+            width: 90%;
+            font-weight: bold;
+            font-size: 50px;
+        }
+
+        #firstPremiumContainer > div:first-child > div:nth-child(4) {
+            margin-top: 40px;
+            margin-bottom: 40px;
+            width: 90%;
+        }
+
+        #firstPremiumContainer > div:first-child > div:nth-child(5) {
+            width: 68%;
+            text-align: center;
+            background-color: #0066EE;
+            padding: 18px;
+            border-radius: 5px;
+        }
+
+            #firstPremiumContainer > div:first-child > div:nth-child(5) > a {
+                color: #FFFFFF;
+                text-decoration: none;
+            }
+
+#firstPremiumContainer img {
+    display: block;
+    width: 80%;
+    margin: auto;
+    height: 440px;
+}
+
+/* css for seconPremiumContainer  */
+
+#secondPremiumContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    width: 80%;
+    margin: auto;
+    font-size: 18px;
+    font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+    margin-top: 60px;
+}
+
+    #secondPremiumContainer > div > div:nth-child(2) {
+        font-size: 18px;
+        text-align: center;
+        font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+        font-weight: bold;
+        padding-bottom: 10px;
+    }
+
+    #secondPremiumContainer > div > div:nth-child(3) {
+        font-size: 16px;
+        text-align: center;
+        font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+        color: grey;
+    }
+
+    #secondPremiumContainer > div img {
+        display: block;
+        width: 55%;
+        margin: auto;
+    }
+
+/* Css for third Premium Container */
+
+#thirdPremiumContainer {
+    margin: 0;
+    padding: 0;
+    background-image: url("https://www.myfitnesspal.com/react-static/0e3daba96c7f16b61bd848c187c939ae.png"), url("https://www.myfitnesspal.com/react-static/c07e47cc8b53532097af736f71cc339d.png");
+    background-repeat: no-repeat,no-repeat;
+    height: 1200px;
+    background-size: auto;
+    background-position: top left, bottom right;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+    #thirdPremiumContainer > h1, #thirdPremiumContainer > p {
+        text-align: center;
+        font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+        color: grey;
+    }
+
+    #thirdPremiumContainer > h1 {
+        font-size: 30px;
+        color: black;
+    }
+
+    #thirdPremiumContainer > #freePremiumBox {
+        display: flex;
+        justify-content: right;
+        width: 60%;
+        margin: auto;
+        font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+        margin-top: 40px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+        #thirdPremiumContainer > #freePremiumBox > div:nth-child(1) {
+            width: 17%
+        }
+
+        #thirdPremiumContainer > #freePremiumBox > div:nth-child(2) {
+            width: 12%
+        }
+
+
+#insideThirdPremiumConatiner {
+    border-top: 3px solid #FFC600;
+    width: 60%;
+    margin: auto;
+    margin-top: 15px;
+    background-color: #FFFFFF;
+    font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+
+    #insideThirdPremiumConatiner > .classGoals {
+        display: flex;
+        height: 100px;
+        align-items: center;
+        font-size: 16px;
+        font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+        padding-left: 40px;
+        border-bottom: 2px solid #eeeeee;
+    }
+
+        #insideThirdPremiumConatiner > .classGoals > div > div {
+            font-weight: bold;
+        }
+
+        #insideThirdPremiumConatiner > .classGoals:nth-child(2n) {
+            background-color: #f5f5f5;
+        }
+
+        #insideThirdPremiumConatiner > .classGoals > div > div:nth-child(2) {
+            color: grey;
+            padding-top: 5px;
+        }
+
+        #insideThirdPremiumConatiner > .classGoals > div:nth-child(1) {
+            width: 70%;
+        }
+
+        #insideThirdPremiumConatiner > .classGoals > div:nth-child(2) {
+            width: 20%;
+        }
+
+    #insideThirdPremiumConatiner > .classGoalsSpecial > div:nth-child(2) {
+        visibility: hidden;
+    }
+
+    #insideThirdPremiumConatiner > .classGoals > div:nth-child(3) {
+        width: 10%;
+    }
+
+    #insideThirdPremiumConatiner .signCircular {
+        width: 20px;
+        height: 20px;
+        background: #0066EE;
+        color: white;
+        text-align: center;
+        border-radius: 50%;
+        font-size: 12px;
+        font-weight: bold;
+        padding-top: 3px;
+    }
+
+/* css for fourthpremiumContainer */
+
+#titleContainer {
+    font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+    text-align: center;
+}
+
+
+
+#fourthPremiumContainer {
+    width: 85%;
+    margin: auto;
+    height: 400px;
+    position: relative;
+    margin-top: 30px;
+    font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+}
+
+    #fourthPremiumContainer > i.fa-solid {
+        position: absolute;
+        font-size: 40px;
+        cursor: pointer;
+        z-index: 10;
+    }
+
+    #fourthPremiumContainer > i.fa-angle-right {
+        right: 5px;
+        top: 45%;
+    }
+
+    #fourthPremiumContainer > i.fa-angle-left {
+        left: 5px;
+        top: 45%;
+    }
+
+    #fourthPremiumContainer > div#sliderContainer {
+        width: 90%;
+        margin: auto;
+        height: 100%;
+        overflow: hidden;
+    }
+
+        #fourthPremiumContainer > div#sliderContainer > div#slideDivBox {
+            width: 240%;
+            display: flex;
+            justify-content: space-between;
+            transition: all 0.5s;
+        }
+
+            #fourthPremiumContainer > div#sliderContainer > div#slideDivBox > div.slide {
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                text-align: center;
+            }
+
+                #fourthPremiumContainer > div#sliderContainer > div#slideDivBox > div.slide > div {
+                    margin-bottom: 10px;
+                    margin-top: 10px;
+                }
+
+                    #fourthPremiumContainer > div#sliderContainer > div#slideDivBox > div.slide > div:nth-child(2) {
+                        margin-bottom: 20px;
+                        margin-top: 20px;
+                        font-weight: bold;
+                    }
+
+    #fourthPremiumContainer > div#circularBox {
+        width: 80px;
+        margin: auto;
+        display: flex;
+        position: absolute;
+        right: 50%;
+        transform: translateX(50%);
+        justify-content: space-between;
+    }
+
+        #fourthPremiumContainer > div#circularBox > div {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            opacity: 1;
+            background: #979ca5;
+            cursor: pointer;
+        }
+
+            #fourthPremiumContainer > div#circularBox > div:hover {
+                opacity: 0.5;
+            }
+
+            #fourthPremiumContainer > div#circularBox > div.selected {
+                background-color: #0066EE;
+            }
+
+                #fourthPremiumContainer > div#circularBox > div.selected:hover {
+                    opacity: 1;
+                }
+
+/* css for fifth premiumContainer */
+
+#fifthPremiumContainer {
+    font-family: "Neue Plak UA", Helvetica, Arial, -apple-system, sans-serif;
+    background-image: url("https://www.myfitnesspal.com/react-static/78a85ff61ae51bacb70e2839935c0b84.svg");
+    background-repeat: no-repeat;
+    height: auto;
+    background-size: auto;
+    margin-top: 100px;
+}
+
+    #fifthPremiumContainer > div#titleContainer {
+        text-align: center;
+    }
+
+        #fifthPremiumContainer > div#titleContainer > div:first-child {
+            background: #FFC600;
+            width: 5%;
+            margin: auto;
+            border-radius: 5px;
+            padding: 5px 10px;
+            font-size: 14px;
+        }
+
+    #fifthPremiumContainer > div#premiumAndResultContainer {
+        background-image: url("https://www.myfitnesspal.com/react-static/b96cec4f94f4413f2891c9bde43f3bcc.png"), url("https://www.myfitnesspal.com/react-static/5505f9a4cc71985801691b723cf64d9a.png");
+        background-repeat: no-repeat,no-repeat;
+        height: 800px;
+        background-size: 15%, 25%;
+        background-position: bottom left 6%, bottom right 6%;
+        margin-top: 40px;
+    }
+
+    #fifthPremiumContainer > div#dropDownContainer {
+        width: 55%;
+        margin: auto;
+    }
+
+        #fifthPremiumContainer > div#dropDownContainer > div.dropDiv {
+            display: flex;
+            justify-content: space-between;
+            height: 80px;
+            align-items: center;
+            background-color: #f5f5f5;
+            padding: 0 20px;
+            cursor: pointer;
+            margin-bottom: 20px;
+        }
+
+
+#dropDownContainer > div.dropParaDiv {
+    display: none;
+    text-align: justify;
+    width: 95%;
+    margin: auto;
+}
+
+#premiumAndResultContainer > div#titleContainer {
+    padding-top: 80px;
+}
+
+#premiumAndResultContainer > p:nth-child(2) {
+    text-align: center;
+    width: 40%;
+    margin: auto;
+}
+
+#premiumAndResultContainer > div#titleContainer > div:first-child {
+    background: #FFC600;
+    width: 10%;
+    margin: auto;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+#annualMonthlyDiv {
+    display: flex;
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+    justify-content: space-between;
+    text-align: center;
+}
+
+    #annualMonthlyDiv > div {
+        width: 46%;
+        border-radius: 5px;
+        box-shadow: rgba(0, 0, 0, 0.24)
+    }
+
+        #annualMonthlyDiv > div:nth-child(1) {
+            background: #FFC600;
+        }
+
+            #annualMonthlyDiv > div:nth-child(1) > div:nth-child(1) {
+                padding: 8px;
+                font-weight: bold;
+            }
+
+    #annualMonthlyDiv div#annualDiv {
+        background: white;
+        width: 98%;
+        margin: auto;
+        padding-bottom: 30px;
+        margin-bottom: 1px;
+    }
+
+
+        #annualMonthlyDiv div#annualDiv > div:nth-child(1) {
+            padding-top: 20px;
+            font-weight: bold;
+        }
+
+
+        #annualMonthlyDiv div#annualDiv > div:nth-child(2) {
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+            padding-bottom: 30px;
+        }
+
+            #annualMonthlyDiv div#annualDiv > div:nth-child(2) > div:nth-child(1) {
+                font-size: 40px;
+                font-weight: 900;
+                vertical-align: bottom;
+            }
+
+            #annualMonthlyDiv div#annualDiv > div:nth-child(2) > div:nth-child(2) {
+                padding-top: 30px;
+                padding-left: 10px;
+            }
+
+        #annualMonthlyDiv div#annualDiv > div:nth-child(3) {
+            width: 60%;
+            margin: auto;
+            color: #6D717A;
+            font-size: 16px;
+            margin-bottom: 50px;
+        }
+
+        #annualMonthlyDiv div#annualDiv > div:nth-child(4) {
+            background: #0066EE;
+            width: 70%;
+            margin: auto;
+            padding: 20px;
+            border-radius: 5px;
+            font-size: 14px;
+            color: white;
+            cursor: pointer;
+        }
+
+    #annualMonthlyDiv div#monthlyDiv {
+        padding-top: 35px;
+        background: white;
+        border-radius: 5px;
+    }
+
+    #annualMonthlyDiv div#annualDiv > div#monthlySubscribe {
+        background: none;
+        color: #0066EE;
+        font-weight: bold;
+        border: 2px solid #0066EE;
+    }

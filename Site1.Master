@@ -1,0 +1,134 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Nutrix1.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <%--Bootstrap css--%>
+    <link href="Bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+     <%--Datatables css--%>
+    <link href="Datatables/css/jquery.dataTables.min.css" rel="stylesheet" />
+     <%--Fontawesome css--%>
+    <link href="Fontawesome/css/all.css" rel="stylesheet" />
+
+     <%--my custom css--%>
+    <link href="css/customstylesheet.css" rel="stylesheet" />
+
+     <%--jquery--%>
+    <script src="Bootstrap/js/jquery-3.3.1.slim.min.js"></script>
+     <%--popper.js--%>
+    <script src="Bootstrap/js/popper.min.js"></script>
+     <%--bootstrap js--%>
+    <script src="Bootstrap/js/bootstrap.min.js"></script>
+    <%--Datatables js--%>
+      <script src="datatables/js/jquery.dataTables.min.js"></script>
+
+     <script src="JavaScript1.js"></script>
+    
+
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+
+        <div>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="Images/nutrix.jpg" alt="Logo" width="90" height="40" class="d-inline-block align-text-top" >
+                       
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="homepage.aspx">Home</a>
+                            </li>
+                            
+                          
+                        </ul>
+                        
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <asp:LinkButton class="nav-link" ID="LinkButton1" runat="server" OnClick="LinkButton1_Click">Login</asp:LinkButton>
+                            </li>
+                            <li class="nav-item">
+                                <asp:LinkButton class="nav-link" ID="LinkButton2" runat="server" OnClick="LinkButton2_Click">Sign In</asp:LinkButton>
+                            </li>
+                            <li class="nav-item">
+                                <asp:LinkButton class="nav-link" ID="LinkButton3" runat="server" OnClick="LinkButton3_Click" Visible="False">Logout</asp:LinkButton>
+                            </li>
+                             <li class="nav-item">
+                                <asp:LinkButton class="nav-link" ID="LinkButton4" runat="server" Visible="False">Hello</asp:LinkButton>
+                            </li>
+                        </ul>
+                        
+                    </div>
+
+                </div>
+            </nav>
+            </div>
+         <div id="nev">
+        <a href=".">ABOUT</a>
+        <a href="./login.html">FOOD</a>
+        <a href="Exercise.aspx">EXERCISE</a>
+        <a href="caloriecalc.aspx">CALORIE COUNT</a>
+        <a href="bmr.aspx">BMR</a>
+       
+        <a href="premium.aspx">PREMIUM</a>
+    </div><br>
+        <!-- Main Content Placeholder -->
+      <div>
+          <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+               
+    </asp:ContentPlaceHolder>
+         
+         </div>
+          <!-- Main Content Placeholder -->
+      
+
+   <!-- Footer -->
+        <footer>
+            <div id="footer1" class="container-fluid">
+                <div class="row justify-content-center">
+                    <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+                        <p>
+                            <asp:LinkButton class="footerlinks" ID="LinkButton6" runat="server" OnClick="LinkButton6_Click" >Admin Login</asp:LinkButton>
+                            &nbsp;
+                            <asp:LinkButton class="footerlinks" ID="LinkButton11" runat="server" OnClick="LinkButton11_Click" Visible="False">Data Management</asp:LinkButton>
+                            &nbsp;
+                            <asp:LinkButton class="footerlinks" ID="LinkButton12" runat="server" OnClick="LinkButton12_Click" Visible="False">Member Management </asp:LinkButton>
+                            &nbsp;
+                            <asp:LinkButton class="footerlinks" ID="LinkButton8" runat="server" OnClick="LinkButton8_Click" Visible="False">Admin Meal Inventory</asp:LinkButton>
+                            &nbsp;
+                            <asp:LinkButton class="footerlinks" ID="LinkButton9" runat="server">Contact Us</asp:LinkButton>
+                            &nbsp;
+                             <asp:LinkButton class="footerlinks" ID="LinkButton10" runat="server">Privacy</asp:LinkButton>
+                        </p>
+
+                    </div>
+
+                </div>
+            </div>
+            <div id="footer2" class="container-fluid">
+                <div class="row justify-content-center">
+                    <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+                        <p style="color:whitesmoke">&copy <a class="footerlinks" href="#" target="_blank">Nutrix</a></p>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+        <!-- ./Footer -->       
+       
+    </form>
+</body>
+     <script src="JavaScript1.js"></script>
+</html>

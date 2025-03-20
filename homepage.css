@@ -1,0 +1,21 @@
+﻿
+
+#navbarNav {
+    width: 100%;
+    margin-top: 20px;
+    background-color: rgb(61, 61, 190);
+    padding: 15px;
+    padding-left: 15%;
+}
+
+    #navbarNav a {
+        color: white;
+        margin-right: 20px;
+        font-size: 15px;
+        padding: 15px;
+    }
+
+#nev a:hover {
+    background-color: rgb(11, 11, 105);
+}
+
